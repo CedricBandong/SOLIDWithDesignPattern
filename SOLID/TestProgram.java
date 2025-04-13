@@ -2,8 +2,8 @@ public class TestProgram {
     public static void main(String[] args) {
         BorrowHandler borrowHandler = new LibraryBorrowHandler();
 
-        Student robi = new Student("Cyriljosh", borrowHandler);
-        Student juan = new Student("Juan", borrowHandler);
+        Student robi = new Student("Cedric", borrowHandler);
+        Student juan = new Student("Bandong", borrowHandler);
 
         Resource book = new Book("The Outliers");
         Resource journal = new Journal("International Journal of Computer Engineering Research");
